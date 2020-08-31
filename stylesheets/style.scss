@@ -1,0 +1,117 @@
+* {
+  margin:0;
+  padding:0;
+  line-height:1.6;
+}
+
+a{
+  text-decoration:none;
+}
+
+li{
+  list-style-type: none;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+header {
+  height:100vh;
+  background:url('/images/landingPage.jpg');
+  background-size:cover;
+
+  nav {
+    background-color:red;
+    height:15vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items:center;
+
+    ul li{
+      display:inline;
+      font-size:20px;
+    }
+  }
+
+  #landing_page_container{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    p{
+      display: block;
+    }
+  }
+}
+
+.rsvp {
+  background-color:#e4e4e4;  
+  padding:15px;
+}
+
+main{
+  padding-top:100px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  justify-items: center;
+
+  img{
+    width:500px;
+  }
+
+  .main_info{
+    text-align:center;
+  }
+
+  h2, h3{
+    font-weight:normal;
+  }
+
+  h2{
+    font-size:4em;
+  }
+
+  h3{
+    font-size:2em;
+    margin:15px 0;
+  }
+
+  p{
+    font-size:1.1em;
+  }
+}
+
+#rsvp_container{
+  padding:30px;
+
+  div:nth-child(1){
+    position: relative;
+    top:75vh;
+    text-align:center;
+    color:#fff;
+    
+    p{
+      font-size:20px;
+    }
+
+    h2{
+      font-size:2.5em;
+      padding:10px 0;
+    }
+  }
+}
+
+footer{
+  section{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:20px 0;
+    justify-items: center;
+    text-align:center;
+  }
+}
