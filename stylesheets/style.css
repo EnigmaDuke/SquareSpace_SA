@@ -24,7 +24,10 @@ header {
 }
 
 header nav {
-  background-color: red;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  width: 100%;
   height: 15vh;
   display: -ms-grid;
   display: grid;
@@ -44,6 +47,7 @@ header nav ul li {
 header #landing_page_container {
   width: 100%;
   height: 100%;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,12 +60,24 @@ header #landing_page_container {
 }
 
 header #landing_page_container p {
-  display: block;
+  font-size: 18px;
+}
+
+header #landing_page_container h1 {
+  font-size: 40px;
 }
 
 .rsvp {
   background-color: #e4e4e4;
+  color: #000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   padding: 15px;
+}
+
+.rsvp:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 main {
